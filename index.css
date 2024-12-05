@@ -10,18 +10,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:dimgrey;
+    background-color:lightcyan;
 }
 
 .weatherContainer {
-    margin: 2rem;
-    padding: 2rem 1rem;
-    border-radius: 1rem;
-    display: flex;
+    margin: 6rem;
+    padding: 6rem 4rem;
+    border-radius: 9rem;
+    display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 19px 0px #18bd9e;
+    background-color: lightgreen;
+    box-shadow: 0px 0px 19px 0px rgb(150, 61, 61);
 }
 
 #weatherForm input {
@@ -34,7 +35,7 @@ body {
 }
 
 #weatherForm ul li {
-    list-style: none;
+    list-style:circle;
 }
 
 .searchBtn {
@@ -66,7 +67,7 @@ body {
 }
 
 .weatherContainer img {
-    width: 50%;
+    width:50%;
 }
 
 #temp {
