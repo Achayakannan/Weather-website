@@ -38,12 +38,12 @@ form.addEventListener('submit', function (e) {
         temp.innerHTML = `${tempValue}<span><sup>o</sup>C</span.`;
 
         // Updating the Images according to the weather
-        if (weatherMain == 'Clear') {
+        if (weatherMain == 'Sunny') {
             image.src = `./sunny.jpg`
             myWeatherContainer.style.backgroundColor = '#ec6e4c'
         }
         if (weatherMain == 'Clouds') {
-            image.src = `./photo-1509803874385-db7c23652552.jpeg`
+            image.src = `./clouds.jpeg`
             myWeatherContainer.style.backgroundColor = '#86d3d3'
         }
         if (weatherMain == 'Rainy') {
